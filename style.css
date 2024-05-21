@@ -1,0 +1,115 @@
+/* CSS untuk gaya desain */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Penyesuaian tampilan untuk setiap halaman */
+
+.home {
+    background-color: #f9f9f9;
+}
+
+.gallery-page {
+    background-color: #e6f7ff;
+}
+
+.blog-page {
+    background-color: #f9f9f9;
+}
+
+.contact-page {
+    background-color: #ffe6e6;
+}
+
+/* Kustomisasi gaya untuk halaman Gallery */
+
+.gallery-page {
+    background-image: url('kno-nord-stage-3-ha88-5-b_1.png');
+    background-size: cover;
+    color: orange;
+    text-align: center;
+}
+
+.gallery-page h1, .gallery-page p {
+    color: orange;
+}
+
+.gallery-page img {
+    width: 50%;
+    height: auto;
+    margin: 10px;
+}
+
+/* Kustomisasi gaya untuk halaman Contact */
+
+
+/* Kustomisasi gaya untuk halaman Blog */
+
+.blog-page {
+    background-image: url('kno-nord-stage-3-ha88-5-b_1.png');
+    background-size: cover;
+    color: orange;
+    text-align: center;
+}
+
+.blog-page h1, .blog-page h2, .blog-page p {
+    color: white;
+}
+
+.blog-page article {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-page article h2 {
+    color: orange;
+}
+.home {
+    background-image: url('Galery/maxresdefault.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
